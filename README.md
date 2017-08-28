@@ -109,8 +109,8 @@ Sending coverage results to Coveralls.io | `npm run coveralls`
 [coveralls-badge]: https://coveralls.io/repos/github/robertoachar/whoops/badge.svg?branch=master
 [coveralls-url]: https://coveralls.io/github/robertoachar/whoops?branch=master
 
-[npm-badge]: https://img.shields.io/npm/v/whoops.svg
-[npm-url]: https://www.npmjs.com/package/whoops
+[npm-badge]: https://img.shields.io/npm/v/@robertoachar/whoops.svg
+[npm-url]: https://www.npmjs.com/package/@robertoachar/whoops
 
 [license-badge]: https://img.shields.io/github/license/robertoachar/whoops.svg
 [license-url]: https://opensource.org/licenses/MIT
