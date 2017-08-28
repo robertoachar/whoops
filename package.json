@@ -1,0 +1,38 @@
+{
+  "name": "@robertoachar/whoops",
+  "version": "1.0.0",
+  "description": "An express middleware validator.",
+  "author": "Roberto Achar <robertoachar@gmail.com>",
+  "homepage": "https://github.com/robertoachar/whoops#readme",
+  "keywords": [
+    "node-js"
+  ],
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "coverage": "jest --colors --coverage",
+    "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls",
+    "jest": "jest --colors --verbose",
+    "lint": "eslint src/**/*.js test/**/*.js",
+    "start": "nodemon src/index.js",
+    "test": "npm run lint && npm run jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertoachar/whoops.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertoachar/whoops/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "20.0.6",
+    "coveralls": "2.13.1",
+    "eslint": "4.3.0",
+    "jest": "20.0.4",
+    "nodemon": "1.11.0"
+  },
+  "license": "MIT"
+}
