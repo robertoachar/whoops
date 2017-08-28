@@ -5,7 +5,10 @@
   "author": "Roberto Achar <robertoachar@gmail.com>",
   "homepage": "https://github.com/robertoachar/whoops#readme",
   "keywords": [
-    "node-js"
+    "node-js",
+    "express",
+    "middleware",
+    "validator"
   ],
   "main": "src/index.js",
   "files": [
