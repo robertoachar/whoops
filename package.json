@@ -1,6 +1,6 @@
 {
   "name": "@robertoachar/whoops",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An express middleware validator.",
   "author": "Roberto Achar <robertoachar@gmail.com>",
   "homepage": "https://github.com/robertoachar/whoops#readme",
