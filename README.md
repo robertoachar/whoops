@@ -35,12 +35,14 @@ $ npm install --save @robertoachar/whoops
 * Import whoops
 
 ```javascript
+const express = require('express');
 const whoops = require('@robertoachar/whoops');
 ```
 
 * Initialize whoops
 
 ```javascript
+const app = express();
 app.use(whoops());
 ```
 
@@ -82,35 +84,31 @@ $ npm install
 
 * Running scripts
 
-Action | Usage
----    | ---
-Starting development mode                | `npm start`
-Linting code                             | `npm run lint`
-Running unit tests                       | `npm run jest`
-Running code coverage                    | `npm run coverage`
-Running lint + tests                     | `npm test`
-Sending coverage results to Coveralls.io | `npm run coveralls`
+| Action                                   | Usage               |
+| ---------------------------------------- | ------------------- |
+| Linting code                             | `npm run lint`      |
+| Running unit tests                       | `npm run jest`      |
+| Running code coverage                    | `npm run coverage`  |
+| Running lint + tests                     | `npm test`          |
+| Sending coverage results to Coveralls.io | `npm run coveralls` |
 
 # Author
+
 [Roberto Achar](https://twitter.com/robertoachar)
 
 # License
+
 [MIT](https://github.com/robertoachar/whoops/blob/master/LICENSE)
 
 [travis-badge]: https://travis-ci.org/robertoachar/whoops.svg?branch=master
 [travis-url]: https://travis-ci.org/robertoachar/whoops
-
 [appveyor-badge]: https://ci.appveyor.com/api/projects/status/github/robertoachar/whoops?branch=master&svg=true
 [appveyor-url]: https://ci.appveyor.com/project/robertoachar/whoops
-
 [circleci-badge]: https://circleci.com/gh/robertoachar/whoops/tree/master.svg?style=shield
 [circleci-url]: https://circleci.com/gh/robertoachar/whoops
-
 [coveralls-badge]: https://coveralls.io/repos/github/robertoachar/whoops/badge.svg?branch=master
 [coveralls-url]: https://coveralls.io/github/robertoachar/whoops?branch=master
-
 [npm-badge]: https://img.shields.io/npm/v/@robertoachar/whoops.svg
 [npm-url]: https://www.npmjs.com/package/@robertoachar/whoops
-
 [license-badge]: https://img.shields.io/github/license/robertoachar/whoops.svg
 [license-url]: https://opensource.org/licenses/MIT
