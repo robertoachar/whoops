@@ -8,7 +8,6 @@
 * **docs**: improve usage
 * **refactor**: split lib
 * **refactor**: update .gitignore
-* **build**: remove package-lock
 * **style**: add prettier
 * **test**: split and improve tests
 
