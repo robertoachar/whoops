@@ -1,12 +1,19 @@
 {
   "name": "@robertoachar/whoops",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An express middleware validator.",
   "author": "Roberto Achar <robertoachar@gmail.com>",
   "homepage": "https://github.com/robertoachar/whoops#readme",
-  "keywords": ["node", "express", "middleware", "validator"],
+  "keywords": [
+    "node",
+    "express",
+    "middleware",
+    "validator"
+  ],
   "main": "src/index.js",
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "scripts": {
     "coverage": "jest --colors --coverage",
     "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls",
